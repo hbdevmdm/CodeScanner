@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dc.codescanner">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <application>
+        <activity
+            android:name=".CodeScannerActivity"
+            android:theme="@style/CodeScanAppTheme" />
+    </application>
+</manifest>
