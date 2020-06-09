@@ -21,6 +21,9 @@ allprojects {
     repositories {
         google()
         jcenter()
+        maven {
+            url "https://dl.bintray.com/hbdevmdm/maven"
+        }
     }
     tasks.withType(Javadoc).all {
         enabled = false

@@ -22,6 +22,13 @@ or Gradle:
 implementation 'com.hb.codescanner:codescanner:1.1'
 ```
 
+add root build.gradle > allProjects > repositories
+```groovy
+maven {
+    url "https://dl.bintray.com/hbdevmdm/maven"
+       }
+```
+
 
 # How it works?
 **Build scanner config object and start activity**
@@ -45,6 +52,9 @@ startActivityForResult(CodeScannerActivity.createIntent(context..,codeScannerCon
         }
     }
 ```
+
+# Future Enhancement
+- Scan from gallery
 
 
 # License
