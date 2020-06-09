@@ -24,9 +24,7 @@ implementation 'com.hb.codescanner:codescanner:1.1'
 
 add root build.gradle > allProjects > repositories
 ```groovy
-maven {
-    url "https://dl.bintray.com/hbdevmdm/maven"
-       }
+maven { url "https://dl.bintray.com/hbdevmdm/maven" }
 ```
 
 
